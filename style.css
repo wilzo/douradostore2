@@ -1,0 +1,60 @@
+/* Adicione seus estilos personalizados aqui */
+
+/* Exemplo de estilos para o rodapé */
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Estilos para o logotipo na barra de navegação */
+.navbar-brand img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos para os links na barra de navegação */
+.navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-nav .nav-link:hover {
+    color: yellow;
+}
+
+/* Estilos para os cards de produtos */
+.card {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+
+.card-img-top {
+    max-width: 100%;
+    height: auto;
+}
+
+.card-title {
+    font-size: 1.25rem;
+}
+
+.card-text {
+    font-size: 0.875rem;
+}
+
+.card-price {
+    font-size: 1.25rem;
+    color: #FFA500; /* Cor laranja para o preço */
+}
+
+.card-body {
+    padding: 15px;
+}
+
+/* Estilos para o botão "Comprar" */
+.card .btn {
+    width: 100%;
+}
+
+.main{
+    background-color: darkblue;
+}

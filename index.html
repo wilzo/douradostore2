@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <title>Sua Loja Virtual</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<style>
+   
+</style>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-success">
+            <div class="container">
+                <a class="navbar-brand" href="#"><img src="cuiaba.png" alt="Dourado Store"></a>
+
+                <div class="d-flex col-12 col-lg-6 mx-auto">
+                  <form class="w-100">
+                      <input class="form-control" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+                  </form>
+              </div>
+
+
+                <!-- Itens à direita (usando um menu suspenso) -->
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Produtos
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Elenco</a>
+                            <a class="dropdown-item" href="#">Uniforme de Jogo</a>
+                            <a class="dropdown-item" href="#">Linha Torcedor</a>
+                            <a class="dropdown-item" href="#">Treino e Viagem</a>
+                            <a class="dropdown-item" href="#">Linha Pets</a>
+                            <a class="dropdown-item" href="#">Acessórios</a>
+                            <a class="dropdown-item" href="#">Chuteiras</a>
+                            <a class="dropdown-item" href="#">Produtos Adidas</a>
+                            <a class="dropdown-item" href="#">Lançamentos</a>
+                            <a class="dropdown-item" href="#">Outlet</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Carrinho</a>
+                    </li>
+                    <ul class="navbar-nav ml-auto">
+                      <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Conta
+                          </a>
+                          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <a class="dropdown-item" href="#">Login</a>
+                              <a class="dropdown-item" href="#">Criar Conta</a>
+                          
+                          </div>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container bg-success">
+        <!-- Carrossel de Cards -->
+        <div id="carousel1" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="cuiaba.png" class="card-img-top" alt="Produto 1">
+                                <div class="card-body">
+                                    <h5 class="card-title">Nome do Produto 1</h5>
+                                    <p class="card-text">Descrição do Produto 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                    <p class="card-price">$19,99</p>
+                                    <a href="#" class="btn btn-warning">Comprar</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="cuiaba.png" class="card-img-top" alt="Produto 2">
+                                <div class="card-body">
+                                    <h5 class="card-title">Nome do Produto 2</h5>
+                                    <p class="card-text">Descrição do Produto 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                    <p class="card-price">$29,99</p>
+                                    <a href="#" class="btn btn-warning">Comprar</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="cuiaba.png" class="card-img-top" alt="Produto 3">
+                                <div class="card-body">
+                                    <h5 class="card-title">Nome do Produto 3</h5>
+                                    <p class="card-text">Descrição do Produto 3. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                    <p class="card-price">$29,99</p>
+                                    <a href="#" class="btn btn-warning">Comprar</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="cuiaba.png" class="card-img-top" alt="Produto 4">
+                                <div class="card-body">
+                                    <h5 class="card-title">Nome do Produto 4</h5>
+                                    <p class="card-text">Descrição do Produto 4. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                    <p class="card-price">$29,99</p>
+                                    <a href="#" class="btn btn-warning">Comprar</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="cuiaba.png" class="card-img-top" alt="Produto 5">
+                                <div class="card-body">
+                                    <h5 class="card-title">Nome do Produto 5</h5>
+                                    <p class="card-text">Descrição do Produto 5. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                    <p class="card-price">$29,99</p>
+                                    <a href="#" class="btn btn-warning">Comprar</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <img src="cuiaba.png" class="card-img-top" alt="Produto 6">
+                                <div class="card-body">
+                                    <h5 class="card-title">Nome do Produto 6</h5>
+                                    <p class="card-text">Descrição do Produto 6. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                    <p class="card-price">$29,99</p>
+                                    <a href="#" class="btn btn-warning">Comprar</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carousel1" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Anterior</span>
+          </a>
+          <a class="carousel-control-next" href="#carousel1" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Próximo</span>
+          </a>
+            <div id="carousel2" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+                  <div class="carousel-item active">
+                      <div class="row">
+                          <div class="col-md-4">
+                              <div class="card">
+                                  <img src="cuiaba.png" class="card-img-top" alt="Produto 1">
+                                  <div class="card-body">
+                                      <h5 class="card-title">Nome do Produto 1</h5>
+                                      <p class="card-text">Descrição do Produto 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                      <p class="card-price">$19,99</p>
+                                      <a href="#" class="btn btn-warning">Comprar</a>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col-md-4">
+                              <div class="card">
+                                  <img src="cuiaba.png" class="card-img-top" alt="Produto 2">
+                                  <div class="card-body">
+                                      <h5 class="card-title">Nome do Produto 2</h5>
+                                      <p class="card-text">Descrição do Produto 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                      <p class="card-price">$29,99</p>
+                                      <a href="#" class="btn btn-warning">Comprar</a>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col-md-4">
+                              <div class="card">
+                                  <img src="cuiaba.png" class="card-img-top" alt="Produto 3">
+                                  <div class="card-body">
+                                      <h5 class="card-title">Nome do Produto 3</h5>
+                                      <p class="card-text">Descrição do Produto 3. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                      <p class="card-price">$29,99</p>
+                                      <a href="#" class="btn btn-warning">Comprar</a>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="carousel-item">
+                      <div class="row">
+                          <div class="col-md-4">
+                              <div class="card">
+                                  <img src="cuiaba.png" class="card-img-top" alt="Produto 4">
+                                  <div class="card-body">
+                                      <h5 class="card-title">Nome do Produto 4</h5>
+                                      <p class="card-text">Descrição do Produto 4. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                      <p class="card-price">$29,99</p>
+                                      <a href="#" class="btn btn-warning">Comprar</a>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col-md-4">
+                              <div class="card">
+                                  <img src="cuiaba.png" class="card-img-top" alt="Produto 5">
+                                  <div class="card-body">
+                                      <h5 class="card-title">Nome do Produto 5</h5>
+                                      <p class="card-text">Descrição do Produto 5. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                      <p class="card-price">$29,99</p>
+                                      <a href="#" class="btn btn-warning">Comprar</a>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col-md-4">
+                              <div class="card">
+                                  <img src="cuiaba.png" class="card-img-top" alt="Produto 6">
+                                  <div class="card-body">
+                                      <h5 class="card-title">Nome do Produto 6</h5>
+                                      <p class="card-text">Descrição do Produto 6. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                      <p class="card-price">$29,99</p>
+                                      <a href="#" class="btn btn-warning">Comprar</a>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+            
+              <a class="carousel-control-prev" href="#carousel2" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#carousel2" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Próximo</span>
+            </a>
+        </div>
+    </main>
+
+    <footer class="bg-dark text-white text-center py-3">
+        © 2023 Dourado Store - Todos os direitos reservados
+    </footer>
+
+    <!-- Adicione os scripts JavaScript do Bootstrap e jQuery no final do seu documento -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
